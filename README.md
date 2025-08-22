@@ -40,8 +40,8 @@ Optional
 
 ```bash
 # clone and enter
-git clone https://github.com/yourname/conc-map-bench.git
-cd conc-map-bench
+git clone https://github.com/McMelonTV/bench.git
+cd bench
 
 # install AUR helpers on Arch (example)
 sudo pacman -S --needed jq go nodejs deno rust gcc git
