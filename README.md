@@ -121,15 +121,7 @@ The harness will pick it up automatically if the runtime and file exist.
 
 ***
 
-## 7 . License
+## 7 . Disclaimer
 
-MIT © 2025 Your Name
-
-[1](https://github.com/mattn/go-php-template-benchmark/blob/main/README.md)
-[2](https://bulldogjob.com/readme/how-to-write-a-good-readme-for-your-github-project)
-[3](https://dev.to/scottydocs/how-to-write-a-kickass-readme-5af9)
-[4](https://www.youtube.com/watch?v=DsJRGl3y0KI)
-[5](https://grrr.tech/posts/2024/format-a-github-readme/)
-[6](https://stackoverflow.com/questions/9331281/how-can-i-test-what-my-readme-md-file-will-look-like-before-committing-to-github)
-[7](https://everhour.com/blog/github-readme-template/)
-[8](https://www.entropywins.wtf/blog/2018/01/20/php-project-template/)
+Most of this software is written by AI, including this README, excluding this disclaimer. The specific model used was
+Claude Sonnet 4.0 Thinking through Perplexity.
