@@ -1,0 +1,29 @@
+[package]
+name = "bench"
+version = "1.0.0"
+edition = "2021"
+
+[[bin]]
+name = "bench"
+path = "bench.rs"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# Optional: for true concurrent hashmap instead of sharded approach
+dashmap = { version = "6.0", optional = true }
+
+# Optional: for async/tokio variant
+tokio = { version = "1.0", features = ["rt-multi-thread", "macros"], optional = true }
+
+[features]
+default = []
+dashmap = ["dep:dashmap"]
+tokio-async = ["dep:tokio"]
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"
